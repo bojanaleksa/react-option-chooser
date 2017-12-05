@@ -1,0 +1,21 @@
+.react-option-chooser {
+	overflow: hidden;
+	>div {
+		margin: 5px;
+		padding: 10px;
+		border: 1px dotted silver;
+		border-radius: 5px;
+		float: left;
+		cursor: pointer;
+		transition: all 0.3s ease-in-out;
+		&.selected {
+			border: 3px solid silver;
+			padding: 8px;
+			transition: all 0.5s ease-in-out;
+		}
+		&:hover {
+			background: #8CD2EC;
+			transition: all 0.1s ease-in-out;
+		}
+	}
+}
